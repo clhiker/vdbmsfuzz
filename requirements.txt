@@ -1,0 +1,5 @@
+pymilvus==2.6.2
+pinecone>=6.0.0
+qdrant-client==1.15.1
+weaviate-client==4.16.10
+numpy>=1.26

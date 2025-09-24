@@ -1,0 +1,5 @@
+numpy
+chromadb
+pymilvus
+qdrant-client>=1.2
+weaviate
