@@ -1,0 +1,29 @@
+{
+  "milvus": {
+    "host": "localhost",
+    "port": 19530,
+    "database": "default",
+    "collection": "test_collection"
+  },
+  "chroma": {
+    "host": "localhost", 
+    "port": 8000,
+    "collection": "test_collection"
+  },
+  "qdrant": {
+    "host": "localhost",
+    "port": 6333,
+    "collection": "test_collection"
+  },
+  "weaviate": {
+    "host": "localhost",
+    "port": 8080,
+    "collection": "TestCollection"
+  },
+  "test_settings": {
+    "vector_dimension": 128,
+    "num_collections": 5,
+    "num_vectors_per_collection": 1000,
+    "timeout_seconds": 30
+  }
+}
